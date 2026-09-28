@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/keeprow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep config/row key checks for twelve-factor services.",
+  "bin": {
+    "keeprow": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/keeprow.git"
+  },
+  "homepage": "https://theworker02.github.io/keeprow/",
+  "keywords": [
+    "keep",
+    "row",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
